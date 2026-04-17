@@ -1,0 +1,31 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# Config
+wp-config.php
+.env
+.env.*
+
+# Content noise
+site/wp-content/uploads/
+site/wp-content/cache/
+site/wp-content/upgrade/
+site/wp-content/backup*
+site/wp-content/ai1wm-backups/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build
+dist/
+coverage/
